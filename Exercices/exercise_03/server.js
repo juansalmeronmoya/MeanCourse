@@ -7,6 +7,7 @@ var mongoose = require('mongoose');
 var app = express();
 var db = mongoose.connection;
 
+//Connect to database
 mongoose.connect('mongodb://localhost/exercise3');
 models.initialize();
 
