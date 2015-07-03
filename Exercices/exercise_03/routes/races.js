@@ -2,7 +2,18 @@ var winston = require('winston');
 var express = require('express');
 var router = express.Router();
 var Race = require('mongoose').model('Race');
+var Planet = require('mongoose').model('Planet');
 var ObjectId = require('mongoose').Types.ObjectId;
+
+function planetExists(planetName) {
+  Race.find({name: planetName}, function(err, data) {
+    if(!err) {
+      winston.info(data);
+      return true;
+    }
+    return false;
+  })
+}
 
 router.get('/', function(req, res, next){
   Race.find({}, {'_id':false}, function(err, data) {
@@ -22,15 +33,18 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var json = req.body;
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('races');
-      collection.insert(json);
-      res.status(200).send(true);
+  var raceData = req.body;
+  var planetName = raceData.homeworld;
+  if (planetExists(planetName)) {
+  } else winston.info("NOPE! D: !");
+  var newRace = new Race(raceData);
+  newRace.save(function(err, saved) {
+    if(!err) {
+      res.status(200).json(saved);
+    } else {
+      console.log(err);
     }
-  });
+  })
 });
 
 router.delete('/:id', function(req, res, next) {
