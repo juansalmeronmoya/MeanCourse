@@ -14,7 +14,7 @@ router.get('/', function(req, res, next){
 
 router.get('/:id', function (req, res, next) {
   var shipId = req.params.id;
-  Ship.find({_id: new ObjectID(shipId)}, {_id: false}, function(err, data) {
+  Ship.find({_id: new ObjectId(shipId)}, {_id: false}, function(err, data) {
     if(!err) {
       res.status(200).json(data);
     }
