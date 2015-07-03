@@ -14,7 +14,7 @@ router.get('/', function(req, res, next){
 
 router.get('/:id', function (req, res, next) {
   var planetId = req.params.id;
-  Planet.find({_id: new ObjectID(planetId)}, {_id: false}, function(err, data) {
+  Planet.find({_id: new ObjectId(planetId)}, {_id: false}, function(err, data) {
     if(!err) {
       res.status(200).json(data);
     }
