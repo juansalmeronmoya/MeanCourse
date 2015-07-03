@@ -27,20 +27,20 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var json = req.body;
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('ships');
-      collection.insert(json);
-      res.status(200).send(true);
+  var shipData = req.body;
+  var newShip = new Ship(shipData);
+  newShip.save(function(err, saved) {
+    if(!err) {
+      res.status(200).json(saved);
+    } else {
+      console.log(err);
     }
-  });
+  })
 });
 
 router.delete('/:id', function(req, res, next) {
-  var taskId = req.params.id;
-  Ship.remove({_id: new ObjectId(taskId)}, function(err){
+  var shipId = req.params.id;
+  Ship.remove({_id: new ObjectId(shipId)}, function(err){
     if(!err) {
       res.status(200).send(true);
     }
@@ -48,9 +48,9 @@ router.delete('/:id', function(req, res, next) {
 });
 
 router.patch('/:id', function(req, res, next) {
-  var planetId = req.params.id;
-  var planetData = req.body;
-  Ship.update({_id: planetId}, {$set: planetData}, function(err) {
+  var shipId = req.params.id;
+  var shipData = req.body;
+  Ship.update({_id: shipId}, {$set: shipData}, function(err) {
     if(!err) {
       res.status(200).end();
     }
