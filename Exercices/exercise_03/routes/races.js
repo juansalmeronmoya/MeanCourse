@@ -1,9 +1,8 @@
+var winston = require('winston');
 var express = require('express');
 var router = express.Router();
-var mongo = require('mongodb').MongoClient;
-var winston = require('winston');
-
-var ObjectID = require('mongodb').ObjectID;
+var Race = require('mongoose').model('Race');
+var ObjectId = require('mongoose').Types.ObjectId;
 
 router.get('/', function (req, res, next) {
   mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
