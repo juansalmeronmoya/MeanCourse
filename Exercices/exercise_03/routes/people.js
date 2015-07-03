@@ -4,18 +4,12 @@ var router = express.Router();
 var People = require('mongoose').model('People');
 var ObjectId = require('mongoose').Types.ObjectId;
 
-router.get('/', function (req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('people');
-      collection.find({},{'_id':false,'model':true}).toArray(function (err, result) {
-        winston.info(result);
-        res.status(200).send(result);
-      });
+router.get('/', function(req, res, next){
+  People.find({}, {'_id':false}, function(err, data) {
+    if(!err) {
+      res.status(200).json(data);
     }
-  });
-  //Retrieve all pieces
+  })
 });
 
 router.get('/:id', function (req, res, next) {
