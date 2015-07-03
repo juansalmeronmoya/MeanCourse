@@ -13,17 +13,12 @@ router.get('/', function(req, res, next){
 });
 
 router.get('/:id', function (req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var id = new ObjectID(req.params.id);
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('races');
-      collection.find({'_id':id}).toArray(function (err, result) {
-        winston.info(result);
-        res.status(200).send(result);
-      });
+  var raceId = req.params.id;
+  Race.find({_id: new ObjectId(raceId)}, {_id: false}, function(err, data) {
+    if(!err) {
+      res.status(200).json(data);
     }
-  });
+  })
 });
 
 router.post('/', function(req, res, next) {
