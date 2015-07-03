@@ -6,6 +6,7 @@ var winston = require('winston');
 var mongoose = require('mongoose');
 var app = express();
 var db = mongoose.connection;
+var models = require('./models');
 
 //Connect to database
 mongoose.connect('mongodb://localhost/exercise3');
