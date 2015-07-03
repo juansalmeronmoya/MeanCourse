@@ -27,20 +27,20 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var json = req.body;
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('planets');
-      collection.insert(json);
-      res.status(200).send(true);
+  var planetData = req.body;
+  var newPlanet = new Planet(planetData);
+  newPlanet.save(function(err, saved) {
+    if(!err) {
+      res.status(200).json(saved);
+    } else {
+      console.log(err);
     }
-  });
+  })
 });
 
 router.delete('/:id', function(req, res, next) {
-  var taskId = req.params.id;
-  Planet.remove({_id: new ObjectId(taskId)}, function(err){
+  var planetId = req.params.id;
+  Planet.remove({_id: new ObjectId(planetId)}, function(err){
     if(!err) {
       res.status(200).send(true);
     }
