@@ -48,17 +48,11 @@ router.delete('/:id', function(req, res, next) {
 });
 
 router.patch('/:id', function(req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var id = new ObjectID(req.params.id);
-    var type = req.body.type;
-    var location = req.body.location;
-    var cost = req.body.cost;
-    var json = req.body;
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('planets');
-      collection.update({'_id': id},{$set:json}, {multi:true});
-      res.status(200).send(true);
+  var planetId = req.params.id;
+  var planetData = req.body;
+  Planet.update({_id: planetId}, {$set: planetData}, function(err) {
+    if(!err) {
+      res.status(200).end();
     }
   });
 });
