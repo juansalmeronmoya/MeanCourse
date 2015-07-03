@@ -41,16 +41,12 @@ router.post('/', function(req, res, next) {
 });
 
 router.delete('/:id', function(req, res, next) {
-  mongo.connect("mongodb://localhost:27017/exercise3", function (err, db) {
-    var id = new ObjectID(req.params.id);
-    if (!err) {
-      winston.info("We are connected");
-      var collection = db.collection('ships');
-      collection.remove({'_id': id});
+  var taskId = req.params.id;
+  Ship.remove({_id: new ObjectId(taskId)}, function(err){
+    if(!err) {
       res.status(200).send(true);
     }
   });
-  //Delete from DB.
 });
 
 router.patch('/:id', function(req, res, next) {
