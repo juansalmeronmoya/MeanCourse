@@ -24,7 +24,6 @@ router.get('/:id', function (req, res, next) {
       });
     }
   });
-  //Retrieve all pieces
 });
 
 router.post('/', function(req, res, next) {
@@ -37,7 +36,6 @@ router.post('/', function(req, res, next) {
       res.status(200).send(true);
     }
   });
-  //Create new piece
 });
 
 router.delete('/:id', function(req, res, next) {
@@ -63,7 +61,6 @@ router.patch('/:id', function(req, res, next) {
       res.status(200).send(true);
     }
   });
-  //Update on db
 });
 
 module.exports = router; //When calling require('tasks'), we get the router.
