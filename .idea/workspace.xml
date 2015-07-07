@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/routes/agendas.js" afterPath="$PROJECT_DIR$/Exercises/final_project/routes/agendas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/routes/contacts.js" afterPath="$PROJECT_DIR$/Exercises/final_project/routes/contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/routes/users.js" afterPath="$PROJECT_DIR$/Exercises/final_project/routes/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/newTaskCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newtask.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/singleTaskCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/singletask.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/services/tasks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/tasksListCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/taskslist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -56,11 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agendas.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agendas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/agendas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64415157">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newTaskCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/newTaskCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -276,29 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example_14_angular_routing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example_14_angular_routing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="example_16_services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,11 +329,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\routes" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\models" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\final_project" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\exercise_03\models" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\exercise_03\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\exercise_04" />
@@ -781,14 +775,20 @@
       <option name="project" value="LOCAL" />
       <updated>1436285162778</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="blank routers&#10;">
+      <created>1436285286854</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1436285286854</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503937" sideWeight="0.50292826" order="11" side_tool="true" content_ui="tabs" />
@@ -844,7 +844,8 @@
     <MESSAGE value="updated contact model" />
     <MESSAGE value="updated agenda model" />
     <MESSAGE value="added company model and router" />
-    <option name="LAST_COMMIT_MESSAGE" value="added company model and router" />
+    <MESSAGE value="blank routers&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="blank routers&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1226,8 +1227,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/agendas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64415157">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/newTaskCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
