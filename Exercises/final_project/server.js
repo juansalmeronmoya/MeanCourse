@@ -8,6 +8,7 @@ var app = express();
 var db = mongoose.connection;
 var models = require('./models');
 var config = require('./config');
+var express_jwt = require('express-jwt');
 
 //Connect to database
 mongoose.connect(config.db_path);
