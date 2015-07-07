@@ -9,11 +9,10 @@ var Schema = mongoose.Schema;
 module.exports = function() {
     var contactsSchema = new Schema({
         name: {type: String, required: true},
-        diameter: {type: String},
-        climate: {type: String},
-        population: {type: Number},
-        rotation_period: {type: Number},
-        orbital_period: {text: Number}
+        surname: {type: String},
+        company: {type: Schema.Types.ObjectId, ref: 'Company' },
+        phone: {type: Number},
+        email: {type: String}
     });
 
     mongoose.model('Contact', contactsSchema, 'contacts');
