@@ -9,11 +9,9 @@ var Schema = mongoose.Schema;
 module.exports = function() {
     var usersSchema = new Schema({
         name: {type: String, required: true},
-        diameter: {type: String},
-        climate: {type: String},
-        population: {type: Number},
-        rotation_period: {type: Number},
-        orbital_period: {text: Number}
+        surname: {type: String},
+        company: {type: String},
+        phone: {type: Number}
     });
 
     mongoose.model('User', usersSchema, 'users');
