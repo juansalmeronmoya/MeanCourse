@@ -9,7 +9,6 @@ var Schema = mongoose.Schema;
 module.exports = function() {
     var agendaSchema = new Schema({
         name: {type: String, required: true},
-        user: {type: Schema.Types.ObjectId, ref: 'User', required: true},
         contacts: {type: Schema.Types.ObjectId, ref: 'Contact' }
     });
 
