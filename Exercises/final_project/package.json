@@ -3,9 +3,12 @@
   "description": "Example of using routers inside an express app",
   "version": "0.0.1",
   "dependencies": {
-    "body-parser": "^1.12.2",
-    "express": "^4.12.3",
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "express-jwt": "^3.0.1",
     "express-winston": "^0.3.1",
-    "mongoose": "^4.0.6"
+    "http": "0.0.0",
+    "mongoose": "^4.0.6",
+    "winston": "^1.0.1"
   }
 }
