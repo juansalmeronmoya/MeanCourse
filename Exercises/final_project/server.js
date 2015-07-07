@@ -12,13 +12,15 @@ var express_jwt = require('express-jwt');
 
 //Connect to database
 mongoose.connect(config.db_path);
+
+//Models initialization
 models.initialize();
 
+
+app.use(bodyParser.json());
 db.on('error', function(err) {
     log.error(err);
 });
-
-app.use(bodyParser.json());
 
 //Middleware for log every request to the system.
 app.use(expressWinston.logger({
@@ -32,18 +34,19 @@ app.use(expressWinston.logger({
     colorStatus: true
 }));
 
-//Import the router of users
+//Import routers
 var contactsRouter = require('./routes/contacts');
 var agendasRouter = require('./routes/agendas');
 var usersRouter = require('./routes/users');
 var companiesRouter = require('./routes/companies');
 var authRouter = require('./routes/authentication');
 
-//Use this router for /users/ endpoint.
+//Router endpoints.
 app.use('/contacts', contactsRouter);
 app.use('/agendas', agendasRouter);
 app.use('/users', usersRouter);
 app.use('/companies', companiesRouter);
 app.use('/authenticate', authRouter);
 
+//Listening server
 http.createServer(app).listen(8080);
