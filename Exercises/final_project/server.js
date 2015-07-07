@@ -33,9 +33,11 @@ app.use(expressWinston.logger({
 //Import the router of users
 var contactsRouter = require('./routes/contacts');
 var agendasRouter = require('./routes/agendas');
+var usersRouter = require('./routes/users');
 
 //Use this router for /users/ endpoint.
 app.use('/contacts', contactsRouter);
 app.use('/agendas', agendasRouter);
+app.use('/users', usersRouter);
 
 http.createServer(app).listen(8080);
