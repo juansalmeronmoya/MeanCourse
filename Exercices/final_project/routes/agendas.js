@@ -1,7 +1,7 @@
 var winston = require('winston');
 var express = require('express');
 var router = express.Router();
-var Planet = require('mongoose').model('Planet');
+var Agenda = require('mongoose').model('Agenda');
 var ObjectId = require('mongoose').Types.ObjectId;
 
 router.get('/', function(req, res, next){
