@@ -8,10 +8,9 @@ var Schema = mongoose.Schema;
  */
 module.exports = function() {
     var usersSchema = new Schema({
-        name: {type: String, required: true},
-        surname: {type: String},
-        company: {type: String},
-        phone: {type: Number}
+        username: {type: String, required: true},
+        password: {type: String, required: true},
+        agendas: [{type: Schema.Types.ObjectId, ref: 'Agenda' }]
     });
 
     mongoose.model('User', usersSchema, 'users');
