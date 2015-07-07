@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/routes/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js" afterPath="$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,17 +48,17 @@
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/user.model.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -67,17 +68,17 @@
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agenda.model.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="agenda.model.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.30807248">
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -121,11 +122,11 @@
         <option value="$PROJECT_DIR$/Exercices/final_project/server.js" />
         <option value="$PROJECT_DIR$/Exercices/final_project/routes/contacts.js" />
         <option value="$PROJECT_DIR$/Exercices/final_project/routes/agendas.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/models/contact.model.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/server.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/index.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/models/contact.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/user.model.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js" />
       </list>
     </option>
   </component>
@@ -757,7 +758,25 @@
       <option name="project" value="LOCAL" />
       <updated>1436280310095</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="updated user model">
+      <created>1436284260117</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1436284260117</updated>
+    </task>
+    <task id="LOCAL-00031" summary="updated user model">
+      <created>1436284592284</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1436284592284</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated contact model">
+      <created>1436284631813</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1436284631813</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -816,7 +835,9 @@
     <MESSAGE value="created routers" />
     <MESSAGE value="modified folder names" />
     <MESSAGE value="added user model" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user model" />
+    <MESSAGE value="updated user model" />
+    <MESSAGE value="updated contact model" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated contact model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1140,18 +1161,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js">
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1164,10 +1177,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1175,15 +1188,23 @@
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/user.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30807248">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
           <folding />
         </state>
       </provider>
