@@ -7,9 +7,10 @@ var mongoose = require('mongoose');
 var app = express();
 var db = mongoose.connection;
 var models = require('./models');
+var config = require('./config');
 
 //Connect to database
-mongoose.connect('mongodb://localhost/finalproject');
+mongoose.connect(config.db_path);
 models.initialize();
 
 db.on('error', function(err) {
@@ -35,11 +36,13 @@ var contactsRouter = require('./routes/contacts');
 var agendasRouter = require('./routes/agendas');
 var usersRouter = require('./routes/users');
 var companiesRouter = require('./routes/companies');
+var authRouter = require('./routes/authentication');
 
 //Use this router for /users/ endpoint.
 app.use('/contacts', contactsRouter);
 app.use('/agendas', agendasRouter);
 app.use('/users', usersRouter);
 app.use('/companies', companiesRouter);
+app.use('/authenticate', authRouter);
 
 http.createServer(app).listen(8080);
