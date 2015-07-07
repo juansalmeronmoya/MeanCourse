@@ -34,10 +34,12 @@ app.use(expressWinston.logger({
 var contactsRouter = require('./routes/contacts');
 var agendasRouter = require('./routes/agendas');
 var usersRouter = require('./routes/users');
+var companiesRouter = require('./routes/companies');
 
 //Use this router for /users/ endpoint.
 app.use('/contacts', contactsRouter);
 app.use('/agendas', agendasRouter);
 app.use('/users', usersRouter);
+app.use('/companies', companiesRouter);
 
 http.createServer(app).listen(8080);

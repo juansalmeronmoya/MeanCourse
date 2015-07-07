@@ -1,4 +1,4 @@
-var models = ['./agenda.model', './contact.model', './user.model'];
+var models = ['./agenda.model', './contact.model', './user.model', './company.model'];
 
 /**
  * Function to initialize all the models, based on an Array.
