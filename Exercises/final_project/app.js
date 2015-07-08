@@ -7,17 +7,24 @@ function Config($stateProvider, $urlRouterProvider) {
     .state('newtask', {
       url: '/newtask',
       templateUrl: 'templates/newContact.html',
-      controller: 'NewTaskController'
+      controller: 'NewContactController'
     })
-    .state('taskslist', {
-      url: '/taskslist',
-      templateUrl: 'templates/taskslist.html',
-      controller: 'TasksListController'
-    }).state('taskslist.single', {
+    .state('newagenda', {
+      url: '/newagenda',
+      templateUrl: 'templates/newAgenda.html',
+      controller: 'NewAgendaController'
+    })
+    .state('agendas', {
+      url: '/agendas',
+      templateUrl: 'templates/agendas.html',
+      controller: 'AgendasController'
+    })
+    .state('taskslist.single', {
       url: '/:id',
       templateUrl: 'templates/singletask.html',
       controller: 'SingleTaskController'
-    }).state('login', {
+    })
+    .state('login', {
       url:'/login',
       templateUrl:'templates/login.html',
       controller: 'AuthController'

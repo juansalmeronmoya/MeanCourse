@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.html" afterPath="$PROJECT_DIR$/Exercises/final_project/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.js" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -24,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/server.js">
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.807693">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+              <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -38,37 +51,17 @@
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/app.js">
+      <file leaf-file-name="newAgenda.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5180723">
-              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.029259896">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -124,8 +117,10 @@
         <option value="$PROJECT_DIR$/Exercises/final_project/config.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/server.js" />
         <option value="$PROJECT_DIR$/Examples/example_14_angular_routing/app.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
         <option value="$PROJECT_DIR$/Exercises/final_project/app.html" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/app.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" />
       </list>
     </option>
   </component>
@@ -293,9 +288,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\services" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\routes" />
     </key>
@@ -789,7 +784,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436365359308</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="modified main view">
+      <created>1436365680904</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1436365680904</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -828,7 +829,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ship PATCH" />
     <MESSAGE value="added POST and rename variables" />
     <MESSAGE value="GET with Id" />
     <MESSAGE value="changed objectId" />
@@ -853,20 +853,14 @@
     <MESSAGE value="installed node modules" />
     <MESSAGE value="authentication" />
     <MESSAGE value="modified newContact template" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified newContact template" />
+    <MESSAGE value="modified main view" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified main view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Exercises/exercise_05/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_11_angular_more_directives/tasks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -934,20 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42009884">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1063,14 +1043,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/interceptor/authInterceptor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1206,26 +1178,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5972461">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1238,10 +1194,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30807248">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5180723">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        <state vertical-scroll-proportion="-15.807693">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/interceptor/authInterceptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39209226">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73666096">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029259896">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>

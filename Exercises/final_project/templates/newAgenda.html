@@ -1,0 +1,18 @@
+<div class="col-lg-4">
+  <h2>Create new Agenda</h2>
+
+  <form name="agendaForm" novalidate>
+    <div class="form-group" ng-class="{'has-error': agendaForm.title.$dirty && agendaForm.title.$invalid}">
+      <label for="title">Name*</label>
+      <input type="text" ng-model="formData.title" required class="form-control" placeholder="Contact name" name="title"
+             id="title">
+      <ng-messages for="agendaForm.title.$error" class="text-danger" ng-if="agendaForm.title.$dirty">
+        <ng-message when="required">This field is required</ng-message>
+      </ng-messages>
+    </div>
+    <div>
+      <button class="btn btn-success btn-large" ng-disabled="agendaForm.$invalid" ng-click="createTask()">Create agenda
+      </button>
+    </div>
+  </form>
+</div>
