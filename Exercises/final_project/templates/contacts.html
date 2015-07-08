@@ -8,8 +8,8 @@
   </div>
   <label>Tasks</label>
 
-  <div ng-repeat="task in taskslist | orderBy:'-dueDate' | filter:search.search">
-    <a ui-sref="taskslist.single({task_title: task.title})"><h3>{{task.title}}</h3></a>
+  <div ng-repeat="contact in contacts | orderBy:'-name' | filter:search.search">
+    <a ui-sref="contacts.single({contact_name: contact.name})"><h3>{{contact.name}}</h3></a>
   </div>
 </div>
 <div ui-view class="col-lg-4"></div>
