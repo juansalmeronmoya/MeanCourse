@@ -17,7 +17,7 @@ mongoose.connect(config.db_path);
 //Models initialization
 models.initialize();
 
-app.use(cors);
+app.use(cors());
 app.use(bodyParser.json());
 db.on('error', function(err) {
     log.error(err);
