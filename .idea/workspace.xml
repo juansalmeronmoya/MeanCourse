@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers\newTaskCtrl.js" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/newContactCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers\tasksListCtrl.js" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/agendaCtrl.js" />
-      <change type="MOVED" beforePath="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates\newtask.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.html" afterPath="$PROJECT_DIR$/Exercises/final_project/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.js" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/newTaskCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/newTaskCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_16_services/controllers/newTaskCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_16_services/controllers/newTaskCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/newTaskCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/newTaskCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_18_authentication/controllers/newTaskCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_18_authentication/controllers/newTaskCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -62,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newContact.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55258125">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.5180723">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -133,6 +125,7 @@
         <option value="$PROJECT_DIR$/Exercises/final_project/server.js" />
         <option value="$PROJECT_DIR$/Examples/example_14_angular_routing/app.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/app.html" />
       </list>
     </option>
   </component>
@@ -229,28 +222,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="final_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -812,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436362464462</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="modified newContact template">
+      <created>1436365359308</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1436365359308</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -851,7 +828,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added planet PATCH" />
     <MESSAGE value="added ship PATCH" />
     <MESSAGE value="added POST and rename variables" />
     <MESSAGE value="GET with Id" />
@@ -876,7 +852,8 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="installed node modules" />
     <MESSAGE value="authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication" />
+    <MESSAGE value="modified newContact template" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified newContact template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1205,14 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/authCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2793427">
@@ -1245,14 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1263,8 +1224,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55258125">
+        <state vertical-scroll-proportion="0.5972461">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5180723">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding />
         </state>
       </provider>
