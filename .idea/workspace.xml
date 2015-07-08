@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.html" afterPath="$PROJECT_DIR$/Exercises/final_project/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.js" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -60,8 +57,8 @@
       <file leaf-file-name="newAgenda.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029259896">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.17555939">
+              <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -790,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436365680904</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="-modified main view&#10;-modified newAgenda template&#10;-modified main controller">
+      <created>1436366943260</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1436366943260</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -829,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added POST and rename variables" />
     <MESSAGE value="GET with Id" />
     <MESSAGE value="changed objectId" />
     <MESSAGE value="added getter with id" />
@@ -854,7 +856,8 @@
     <MESSAGE value="authentication" />
     <MESSAGE value="modified newContact template" />
     <MESSAGE value="modified main view" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified main view" />
+    <MESSAGE value="-modified main view&#10;-modified newAgenda template&#10;-modified main controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="-modified main view&#10;-modified newAgenda template&#10;-modified main controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1244,8 +1247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029259896">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.17555939">
+          <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
           <folding />
         </state>
       </provider>
