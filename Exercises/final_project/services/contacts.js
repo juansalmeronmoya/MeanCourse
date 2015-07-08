@@ -21,7 +21,7 @@ function contactsService($http, $q, AuthService) {
 
   function addContact(newContact) {
     var q = $q.defer();
-    $http.post(SERVER_URL, newContact).then(function(data){
+    $http.post(SERVER_URL + 'contacts/', newContact).then(function(data){
       q.resolve(data)
     }, function(){
       q.reject(data);
