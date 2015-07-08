@@ -1,0 +1,36 @@
+<div class="col-lg-4">
+  <h2>Create new Contact</h2>
+
+  <form name="contactForm" novalidate>
+    <div class="form-group" ng-class="{'has-error': contactForm.title.$dirty && contactForm.title.$invalid}">
+      <label for="title">Name*</label>
+      <input type="text" ng-model="formData.title" required class="form-control" placeholder="Contact name" name="title"
+             id="title">
+      <ng-messages for="contactForm.title.$error" class="text-danger" ng-if="contactForm.title.$dirty">
+        <ng-message when="required">This field is required</ng-message>
+      </ng-messages>
+    </div>
+    <div class="form-group" ng-class="{'has-error': contactForm.surname.$dirty && contactForm.surname.$invalid}">
+      <label for="surname">Surname</label>
+        <input type="text" id="surname" name="surname" ng-model="formData.surname" class="form-control" placeholder="Contact surname">
+        </input>
+    </div>
+    <div class="form-group" ng-class="{'has-error': contactForm.email.$dirty && contactForm.email.$invalid}">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" ng-model="formData.email" class="form-control" placeholder="Contact e-mail">
+      </input>
+    </div>
+    <div class="form-group" ng-class="{'has-error': contactForm.phone.$dirty && contactForm.phone.$invalid}">
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone" ng-model="formData.phone" class="form-control" placeholder="Contact telephone">
+      </input>
+    </div>
+    <div>
+      <button class="btn btn-success btn-large" ng-disabled="contactForm.$invalid" ng-click="createTask()">Create contact
+      </button>
+    </div>
+    <div class="text-success">
+      <span>{{task}}</span>
+    </div>
+  </form>
+</div>

@@ -16,6 +16,6 @@ function NewTaskController($scope, tasksService) {
     $scope.formData = {
       showDueDate: $scope.formData.showDueDate
     };
-    $scope.taskForm.$setPristine();
+    $scope.contactForm.$setPristine();
   };
 }
