@@ -21,7 +21,7 @@ function Config($stateProvider, $urlRouterProvider) {
     })
     .state('taskslist.single', {
       url: '/:id',
-      templateUrl: 'templates/singletask.html',
+      templateUrl: 'templates/simpleContact.html',
       controller: 'SingleTaskController'
     })
     .state('login', {
