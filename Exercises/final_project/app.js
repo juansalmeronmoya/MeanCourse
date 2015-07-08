@@ -14,9 +14,13 @@ function Config($stateProvider, $urlRouterProvider) {
       templateUrl: 'templates/taskslist.html',
       controller: 'TasksListController'
     }).state('taskslist.single', {
-      url: '/:task_title',
+      url: '/:id',
       templateUrl: 'templates/singletask.html',
       controller: 'SingleTaskController'
+    }).state('login', {
+      url:'/login',
+      templateUrl:'templates/login.html',
+      controller: 'AuthController'
     });
-  $urlRouterProvider.otherwise('/newtask');
+  $urlRouterProvider.otherwise('/login');
 }

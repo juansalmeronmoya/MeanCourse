@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="added comments">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/iconv-lite/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/raw-body/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/body-parser/node_modules/type-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/accepts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/express/node_modules/type-is/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/async/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/async/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/bluebird/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/bluebird/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/tunnel-agent/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/bson/node_modules/bson-ext/node_modules/node-pre-gyp/node_modules/request/node_modules/tunnel-agent/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/Exercises/final_project/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/package.json" />
+    <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="up">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/services/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/authCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/interceptor/authInterceptor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.html" afterPath="$PROJECT_DIR$/Exercises/final_project/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.js" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -55,11 +39,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examples/example_07_json_web_token_authentication/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.028006589">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authInterceptor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/interceptor/authInterceptor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/services/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/authCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,86 +248,6 @@
               <option name="myItemId" value="Exercises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="final_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="final_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="final_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,7 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example_07_json_web_token_authentication" />
+              <option name="myItemId" value="example_18_authentication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,42 +278,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example_07_json_web_token_authentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MeanCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example_07_json_web_token_authentication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,11 +313,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\routes" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\models" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\final_project" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\exercise_03\models" />
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates" />
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers" />
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\services" />
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercices\exercise_04" />
@@ -403,10 +337,12 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_13_angular_filters/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_06_express_with_mongoose/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_06_express_with_mongoose/server.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/routes/user.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/server.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/services/tasks.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -414,30 +350,30 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/newTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/tasksListCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/templates/newtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_14_angular_routing/templates/taskslist.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/newTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/singleTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/tasksListCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/templates/newtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/templates/singletask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_15_angular_more_routing/templates/taskslist.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/controllers/newTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/controllers/singleTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/controllers/tasksListCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/services/tasks.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/templates/newtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/templates/singletask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/templates/taskslist.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Exercices/final_project/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/newTaskCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/singleTaskCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/tasksListCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/services/tasks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/newtask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/singletask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/taskslist.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/app.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/authCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/newTaskCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/singleTaskCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/tasksListCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/interceptor/authInterceptor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/services/auth.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/services/tasks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/newtask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/singletask.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/taskslist.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -445,13 +381,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/controllers.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/createtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/services.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_services/tasklist.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_21_angular_connecting_rest_api/README.md</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -855,7 +785,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436286709531</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="installed node modules">
+      <created>1436288281672</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1436288281672</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -864,22 +800,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503937" sideWeight="0.50292826" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503937" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28503937" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -894,7 +830,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved DELETE routes for all models to use mongoose" />
     <MESSAGE value="code cleanup" />
     <MESSAGE value="added planet PATCH" />
     <MESSAGE value="added ship PATCH" />
@@ -919,63 +854,14 @@
     <MESSAGE value="added authentication" />
     <MESSAGE value="added require" />
     <MESSAGE value="added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
+    <MESSAGE value="installed node modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="installed node modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Examples/example_02_nodejs_project/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/exercise_01/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/exercise_02/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_05_express_routers/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34170854">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_04_express/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2562814">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_03_mongoose/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6834171">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/exercise_01/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65829146">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/exercise_02/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1001,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32984293">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.578534">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5340314">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4522613">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.79396987">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34170854">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81155777">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59799">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0">
           <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61445785">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.109091">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.807693">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42009884">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36408567">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028006589">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19604613">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,19 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_07_json_web_token_authentication/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,14 +1157,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_07_json_web_token_authentication/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028006589">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/interceptor/authInterceptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15727699">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/interceptor/authInterceptor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/services/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/authCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
