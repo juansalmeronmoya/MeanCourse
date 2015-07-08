@@ -13,7 +13,15 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-
+    var contactData = req.body;
+    var newContact = new Contact(contactData);
+    newContact.save(function(err, saved) {
+        if(!err) {
+            res.status(200).json(saved);
+        } else {
+            console.log(err);
+        }
+    })
 });
 
 router.delete('/:id', function(req, res, next) {
