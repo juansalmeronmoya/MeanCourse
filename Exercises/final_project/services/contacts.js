@@ -1,6 +1,6 @@
-angular.module('services').factory('tasksService', tasksService);
+angular.module('services').factory('contactsService', contactsService);
 
-function tasksService($http, $q, AuthService) {
+function contactsService($http, $q, AuthService) {
   var SERVER_URL = 'http://localhost:8080/';
 
   function getTasks() {
@@ -19,9 +19,9 @@ function tasksService($http, $q, AuthService) {
     return q.promise;
   }
 
-  function addTask(newTask) {
+  function addContact(newContact) {
     var q = $q.defer();
-    $http.post(SERVER_URL, newTask).then(function(data){
+    $http.post(SERVER_URL, newContact).then(function(data){
       q.resolve(data)
     }, function(){
       q.reject(data);
@@ -41,7 +41,7 @@ function tasksService($http, $q, AuthService) {
 
   return {
     getTasks: getTasks,
-    addTask: addTask,
+    addTask: addContact,
     removeTask: removeTask
   }
 }
