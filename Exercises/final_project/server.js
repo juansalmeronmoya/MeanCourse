@@ -9,6 +9,7 @@ var db = mongoose.connection;
 var models = require('./models');
 var config = require('./config');
 var express_jwt = require('express-jwt');
+var cors = require('cors');
 
 //Connect to database
 mongoose.connect(config.db_path);
@@ -16,7 +17,7 @@ mongoose.connect(config.db_path);
 //Models initialization
 models.initialize();
 
-
+app.use(cors);
 app.use(bodyParser.json());
 db.on('error', function(err) {
     log.error(err);
