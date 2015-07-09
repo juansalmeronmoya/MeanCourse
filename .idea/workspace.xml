@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates\taskslist.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/app.js" afterPath="$PROJECT_DIR$/Exercises/final_project/app.js" />
+    <list default="true" id="a9953046-ff55-4872-9337-da5ae545889a" name="Default" comment="added contacts template">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/tasksListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/controllers/agendaCtrl.js" afterPath="$PROJECT_DIR$/Exercises/final_project/controllers/agendaCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_14_angular_routing/app.js" afterPath="$PROJECT_DIR$/Examples/example_14_angular_routing/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/app.js" afterPath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_16_services/app.js" afterPath="$PROJECT_DIR$/Examples/example_16_services/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.js" afterPath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_18_authentication/app.js" afterPath="$PROJECT_DIR$/Examples/example_18_authentication/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exercises/final_project/templates/contacts.html" afterPath="$PROJECT_DIR$/Exercises/final_project/templates/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/tasksListCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/tasksListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/tasksListCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_15_angular_more_routing/controllers/tasksListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_16_services/controllers/tasksListCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_16_services/controllers/tasksListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/tasksListCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/tasksListCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples/example_18_authentication/controllers/tasksListCtrl.js" afterPath="$PROJECT_DIR$/Examples/example_18_authentication/controllers/tasksListCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MeanCourse.iws" />
@@ -25,31 +36,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.807693">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/index.js">
+      <file leaf-file-name="newContactCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/newContactCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
+      <file leaf-file-name="contacts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/services/contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.112026356">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasksListCtrl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/tasksListCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26631853">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercises/final_project/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -93,24 +134,28 @@
         <option value="$PROJECT_DIR$/Exercices/final_project/server.js" />
         <option value="$PROJECT_DIR$/Exercices/final_project/routes/contacts.js" />
         <option value="$PROJECT_DIR$/Exercices/final_project/routes/agendas.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/models/contact.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/user.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/agenda.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/company.model.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/models/index.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/routes/company.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/routes/users.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/routes/contacts.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/routes/agendas.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/config.js" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/server.js" />
         <option value="$PROJECT_DIR$/Examples/example_14_angular_routing/app.js" />
         <option value="$PROJECT_DIR$/Exercises/final_project/app.html" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
         <option value="$PROJECT_DIR$/Exercises/final_project/templates/newAgenda.html" />
         <option value="$PROJECT_DIR$/Exercises/final_project/templates/singletask.html" />
-        <option value="$PROJECT_DIR$/Exercises/final_project/templates/contacts.html" />
         <option value="$PROJECT_DIR$/Exercises/final_project/app.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/server.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/services/tasks.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/routes/contacts.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/models/contact.model.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/templates/newContact.html" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/controllers/newContactCtrl.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/services/contacts.js" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/templates/contacts.html" />
+        <option value="$PROJECT_DIR$/Exercises/final_project/controllers/tasksListCtrl.js" />
       </list>
     </option>
   </component>
@@ -228,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,10 +323,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\templates" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\services" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project" />
-      <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\controllers" />
       <recent name="C:\Users\Juan\Dropbox\PROYECTOS\MEAN\bertofer\MeanCourse\Exercises\final_project\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -302,12 +347,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_06_express_with_mongoose/package.json</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_06_express_with_mongoose/server.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/routes/user.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_08_complete_api_rest/server.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_16_services/services/tasks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/authCtrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/tasksListCtrl.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -315,30 +357,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/newTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/singleTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/controllers/tasksListCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/services/tasks.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/newtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/singletask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_17_angular_connecting_rest_api/templates/taskslist.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/app.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/authCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/newTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/singleTaskCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/controllers/tasksListCtrl.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/interceptor/authInterceptor.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/services/auth.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/services/tasks.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/login.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/newtask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/singletask.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_18_authentication/templates/taskslist.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_19_angular_custom_directives/app.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_19_angular_custom_directives/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_custom_filter/app.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_custom_filter/app.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_20_angular_custom_filter/filters.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -346,7 +369,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Examples/example_21_angular_connecting_rest_api/README.md</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -428,10 +450,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Node.js.server.js (3)">
-    <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/Exercises/exercise_01/server.js" working-dir="$PROJECT_DIR$/Exercises/exercise_01">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.server.js (4)">
     <configuration default="false" name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Examples/example_04_express">
       <method />
     </configuration>
@@ -442,6 +461,9 @@
       <method />
     </configuration>
     <configuration default="false" name="server.js (3)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/Exercises/exercise_03/server.js" working-dir="$PROJECT_DIR$/Exercises/exercise_03">
+      <method />
+    </configuration>
+    <configuration default="false" name="server.js (4)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Exercises/final_project">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -483,19 +505,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.pieces.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.server.js (3)" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.pieces.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.server.js (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.server.js (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.pieces.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.server.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.server.js (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.server.js (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.pieces.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -509,54 +531,6 @@
       <created>1435671446203</created>
       <option name="number" value="Default" />
       <updated>1435671446203</updated>
-    </task>
-    <task id="LOCAL-00001" summary="added comment to test new origin">
-      <created>1435772443556</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1435772443556</updated>
-    </task>
-    <task id="LOCAL-00002" summary="solved model paths">
-      <created>1435929605582</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1435929605582</updated>
-    </task>
-    <task id="LOCAL-00003" summary="change routers to handle models with mongoose">
-      <created>1435929696755</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1435929696755</updated>
-    </task>
-    <task id="LOCAL-00004" summary="solved GET routes for all models to use mongoose">
-      <created>1435930420304</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1435930420304</updated>
-    </task>
-    <task id="LOCAL-00005" summary="solved DELETE routes for all models to use mongoose">
-      <created>1435930957838</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1435930957838</updated>
-    </task>
-    <task id="LOCAL-00006" summary="code cleanup">
-      <created>1435931435713</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1435931435713</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added planet PATCH">
-      <created>1435931725657</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1435931725657</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added ship PATCH">
-      <created>1435931796580</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1435931796580</updated>
     </task>
     <task id="LOCAL-00009" summary="added POST and rename variables">
       <created>1435932119322</created>
@@ -798,23 +772,77 @@
       <option name="project" value="LOCAL" />
       <updated>1436367482450</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="added contacts template">
+      <created>1436368032484</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1436368032484</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added cors">
+      <created>1436370580733</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1436370580735</updated>
+    </task>
+    <task id="LOCAL-00051" summary="cors">
+      <created>1436370876852</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1436370876852</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added jsonwebtoken dependency">
+      <created>1436370988630</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1436370988630</updated>
+    </task>
+    <task id="LOCAL-00053" summary="renamed">
+      <created>1436371011356</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1436371011356</updated>
+    </task>
+    <task id="LOCAL-00054" summary="updated function names">
+      <created>1436371683933</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1436371683933</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added addcontact backend">
+      <created>1436373131291</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1436373131291</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add contact working">
+      <created>1436375047188</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1436375047188</updated>
+    </task>
+    <task id="LOCAL-00057" summary="changed addContact">
+      <created>1436449914805</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1436449914806</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1852123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18824404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503937" sideWeight="0.50292826" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5029762" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28503937" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28431374" sideWeight="0.49707174" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.49702382" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49702382" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -837,16 +865,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added getter with id" />
-    <MESSAGE value="POST with reference" />
-    <MESSAGE value="created models" />
-    <MESSAGE value="created first backend server" />
-    <MESSAGE value="created first package.json" />
-    <MESSAGE value="deleted unused files" />
-    <MESSAGE value="created routers" />
-    <MESSAGE value="modified folder names" />
-    <MESSAGE value="added user model" />
-    <MESSAGE value="updated user model" />
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="updated contact model" />
     <MESSAGE value="updated agenda model" />
     <MESSAGE value="added company model and router" />
@@ -862,41 +881,23 @@
     <MESSAGE value="-modified main view&#10;-modified newAgenda template&#10;-modified main controller" />
     <MESSAGE value="modified agenda template" />
     <MESSAGE value="updated simpleContact" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated simpleContact" />
+    <MESSAGE value="added contacts template" />
+    <MESSAGE value="added cors" />
+    <MESSAGE value="cors" />
+    <MESSAGE value="added jsonwebtoken dependency" />
+    <MESSAGE value="renamed" />
+    <MESSAGE value="new contact controller" />
+    <MESSAGE value="updated function names" />
+    <MESSAGE value="added addcontact backend" />
+    <MESSAGE value="add contact working" />
+    <MESSAGE value="changed addContact" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed addContact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Examples/example_10_angular_controllers/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61445785">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_10_angular_controllers/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.112026356">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/templates/taskslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/newTaskCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_14_angular_routing/controllers/tasksListCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -939,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028006589">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/agendas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -953,25 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/company.js">
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/companies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19604613">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8121911">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,19 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/example_07_json_web_token_authentication/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028006589">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.15727699">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,19 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/agendaCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/example_18_authentication/controllers/authCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,15 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/newContactCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,15 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/services/tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2793427">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,23 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30807248">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.807693">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,15 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39209226">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73666096">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17555939">
           <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23407917">
           <caret line="8" column="76" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,22 +1145,128 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/contacts.html">
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/agendaCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20481928">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercises/final_project/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.112026356">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7101828">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_08_complete_api_rest/routes/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5770235">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_07_json_web_token_authentication/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2193213">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/example_06_express_with_mongoose/routes/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08877285">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/models/contact.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5770235">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/newContact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71428573">
+          <caret line="27" column="95" selection-start-line="27" selection-start-column="95" selection-end-line="27" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/routes/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7878049">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/newContactCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/services/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/templates/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises/final_project/controllers/tasksListCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26631853">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
