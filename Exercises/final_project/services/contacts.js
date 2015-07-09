@@ -41,7 +41,7 @@ function contactsService($http, $q, AuthService) {
 
   return {
     getTasks: getTasks,
-    addTask: addContact,
+    addContact: addContact,
     removeTask: removeTask
   }
 }

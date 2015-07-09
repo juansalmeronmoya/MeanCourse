@@ -9,7 +9,7 @@ function NewContactController($scope, contactsService) {
       email: $scope.formData.email,
       phone: $scope.formData.phone
     };
-    contactsService.addTask(newContact);
+    contactsService.addContact(newContact);
 
     $scope.contactForm.$setPristine();
   };
