@@ -3,7 +3,7 @@
  */
 angular.module('services').controller('ContactsController', ContactsController);
 
-function ContactsController($scope, tasksService) {
+function ContactsController($scope, contactsService) {
   $scope.search = {};
-  $scope.taskslist = tasksService.tasks;
+  $scope.contacts = contactsService.contacts;
 }

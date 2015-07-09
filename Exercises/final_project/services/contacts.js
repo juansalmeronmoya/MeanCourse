@@ -3,12 +3,12 @@ angular.module('services').factory('contactsService', contactsService);
 function contactsService($http, $q, AuthService) {
   var SERVER_URL = 'http://localhost:8080/';
 
-  function getTasks() {
+  function getContacts() {
     var q = $q.defer();
 
     if(AuthService.user) {
       console.log(AuthService.getUser());
-      $http.get(SERVER_URL + 'user/' + AuthService.getUser().user._id + '/task').then(function(data){
+      $http.get(SERVER_URL + 'contacts/' + AuthService.getUser().user._id).then(function(data){
         q.resolve(data);
       }, function(){
         q.reject();
@@ -40,7 +40,7 @@ function contactsService($http, $q, AuthService) {
   }
 
   return {
-    getTasks: getTasks,
+    getContacts: getContacts,
     addContact: addContact,
     removeTask: removeTask
   }
